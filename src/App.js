@@ -1,10 +1,11 @@
-import Count from './Counter.js'
+import './App.css';
+import Countercontainer from './components/Countercontainer';
+
 function App() {
-  const value = 0 ; 
   return (
-    <div className='container text-center' >
-    <h1>Counter</h1>
-    <Count value={value}/>
+    <div className="App">
+     
+     <Countercontainer/>
     </div>
   );
 }

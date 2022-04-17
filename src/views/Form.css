@@ -1,0 +1,13 @@
+.formWrapper{
+    box-shadow: 5px 5px 10px #064848, -5px -5px 10px #064848;
+    border: #064848 2px solid;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-family: "Cascadia Mono PL";
+    padding: 2rem;
+    margin: 2rem auto 2rem;
+}
+.labelForm{
+    color: #064848;
+    font-weight: 600;
+}

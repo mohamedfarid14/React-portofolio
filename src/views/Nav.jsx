@@ -38,6 +38,12 @@ const Nav = () => {
                                 TO-DO-LIST
                             </Link>
                         </li>
+
+                        <li className="nav-item">
+                            <Link to={"/form"} className="nav-link">
+                                FORM
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

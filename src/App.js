@@ -7,6 +7,7 @@ import Products from './views/Products';
 import Product from './views/Product';
 import Nav from './views/Nav'
 import Todo from './views/Todo'
+import Form from './views/Form'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/store/product/:id' element={<Product/>}/>
         <Route path='/counter' element={<Counter/>}/>
         <Route path='/todo' element={<Todo/>}/>
+        <Route path='/form' element={<Form/>}/>
       </Routes>
     </BrowserRouter>
     </>

@@ -1,14 +1,10 @@
-
-
-function CounterActions(props){
+const Actions = (props)=>{
     return (
-        <div >
-            <div >
-                <button onClick={props.inc}>Increment</button>
-                <button  onClick={props.dec}>Decrement</button>
-            </div>
+        <div>
+            <button className='btn btn-success m-1' onClick={props.increase}>Increase</button>
+            <button className='btn btn-danger m-1' onClick={props.decrease}>Decrease</button>
         </div>
-    );
+    )
 }
 
-export default CounterActions;
+export default Actions

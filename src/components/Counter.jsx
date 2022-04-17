@@ -1,14 +1,7 @@
-
-function Counter(props){
+const Counter = (props)=>{
     return (
-        <div>
-            <div>
-                <p>Counter</p>
-                <h3>{props.counter}</h3>
-            </div>
-        </div>
-    );
+        <div>{props.counter}</div>
+    )
 }
 
-
-export default Counter;
+export default Counter
